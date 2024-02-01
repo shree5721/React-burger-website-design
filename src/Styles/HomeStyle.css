@@ -1,0 +1,320 @@
+/*Styling Home hero section*/
+.hero_section{
+    position: relative;
+    background:url("../Images/hero_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 170px;
+    padding-bottom: 90px;
+    /* height: 100vh; */
+}
+.hero_section .wrapper{
+    position: relative;
+}
+.hero_section .wrapper img{
+    width: 530px;
+    height: 480px;
+}
+.hero_section .price_badge{
+    background: yellow;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    border-radius: 50%;
+    right: 237px;
+    width: 145px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero_section .price_badge .h4_badge{
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.hero_section .price_badge .h3_price{
+    font-size:1.2rem ;
+}
+.hero_section .hero_text h1{
+    font-family: var(lilita-font);
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.hero_section .hero_text h2{
+    font-family: var(--lilita-font);
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.hero_section .hero_text p{
+    padding: 0 5%;
+}
+
+/*Styling the section 2*/
+
+.about_section{
+    padding: 80px 0 50px 0;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.about_section h2 {
+    font-size: 3.5rem;
+  }
+.about_section p{
+    color: var(--grey);
+    padding: 20px 30px ;
+    font-size: 19px;
+}
+
+
+.about_wrapper{
+    background: var(--yellow);
+    padding: 70px 0 30px 0;
+}
+.about_box .about_icon img{
+    max-width: 100px;
+}
+.about_box h4{
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*Styling burger menu section*/
+
+.menu_section {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  .menu_section .card_img img{
+   transition: all 500ms ease-in-out; 
+   height:240px;
+  }
+  .menu_section h2{
+    font-size: 3.5rem;
+    color: var(--light-red);
+  }
+  .menu_section .para{
+    color: var(--grey);
+    padding: 10px 50px;
+    font-size: 19px;
+  }
+  .menu_section .item_rating i{
+    color: var(--yellow);
+    margin-right: 5px;
+  }
+  .menu_section .wishlist i:hover{
+    color: var(--light-red);
+  }
+  .menu_section .card-title{
+    font-family: var(--oswald-font);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .menu_section .menu_price{
+    background-color: var(--bg-coffee);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 4px;
+  }
+  .menu_section .menu_price h5{
+    color: var(--yellow);
+    font-size: 1rem;
+  }
+  .menu_section .add_to_card a{
+    background: var(--yellow);
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 11px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 300ms ease-in-out;
+  }
+  .menu_section .card:hover .card-img-top{
+    transform: scale(1.1);
+  }
+  .menu_section .card:hover .add_to_card a{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  /*Styling ads section*/
+
+  .menu_section .ads_img1{
+    background: url('../Images/fries.jpg');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    color: var(--brown);
+  }
+  .menu_section .ads_img2{
+    background: url('../Images/image5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--brown);
+  }
+  .menu_section .ads_box h5{
+    font-size: 1.5rem;
+    color:#333333;
+  }
+  .menu_section .para{
+    color: var(--grey);
+    padding: 10px 100px;
+    font-size: 19px;
+  }
+
+  /*Styling shop section*/
+
+  .shop_section{
+    padding: 100px 0 0;
+    background: var(--yellow);
+  }
+  .shop_section h4{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: var(--bg-coffee);
+  }
+  .shop_section h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: var(--bg-coffee);
+  }
+  .shop_section p{
+    font-size: 1.1rem;
+    padding-right: 10px;
+    color: var(--bg-coffee);
+    margin-bottom: 40px;
+  }
+  .shop_section .store{
+    max-width: 40%;
+  }
+  .shop_section .apple{
+    max-width: 31%;
+  }
+
+  /*Styling the review section*/
+
+  .blog_section {
+    padding: 40px 0 30px;
+    background:url('../Images/Review.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .blog_section .user_img img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+  .blog_section .carousel .carousel-inner .carousel-item .carousel-caption{
+    position: static;
+  }
+  .blog_section .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 1.7rem;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0 12%;
+    margin-bottom: 25px;
+  }
+  .blog_section .carousel .carousel-inner .carousel-item .carousel-caption .item_rating i {
+    color: yellow;
+    margin-right: 5px;
+  }
+  .blog_section .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /*Styling the footer section*/
+  footer{
+    padding-top: 60px;
+  }
+  footer h5{
+    color: var(--light-black);
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+  footer p{
+    margin-bottom: 3px;
+    font-size: 1rem;
+  }
+  footer ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  footer .copy_right{
+    border-top: 1px solid var(--light-grey);
+    margin-top: 60px;
+    padding: 20px 0;
+  }
+  footer .copy_right ul li span{
+    color: var(--light-red);
+    font-weight: 600;
+  }
+  footer .copy_right ul li{
+    font-size: 1rem;
+    padding: 0 10px;
+    position: relative;
+  }
+  footer .copy_right ul li:after{
+    content: '|';
+    padding-left: 11px;
+    position: absolute;
+    top: -1px;
+    right: -10px;
+  }
+  footer .copy_right ul li:last-child:after{
+    display: none;
+  }
+
+
+
+
+@media(max-width:992px){
+    .hero_section .hero_text h1{
+        font-size: 4rem;
+    }
+    .about_section h2{
+        font-size: 2.5rem;
+    }
+    .about_section p{
+        padding: 20px 0;
+    }
+}
+
+@media (max-width:767px){
+    /*Home hero section*/
+    .hero_section .hero_text h1{
+        font-size: 5rem;
+    }
+
+    /*Home menu section*/
+    .menu_section .para{
+        padding: 10px 0px;
+    }
+}
+
